@@ -9,11 +9,13 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 14px;
+    text-align: center;
 }
 
 p.small {
     font-size: 16px;
+    text-align: center;
 }
 
 a,
@@ -31,9 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 10;
+    color: #000000;
 }
 
 hr.star-light,
@@ -82,12 +84,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #ffffff;
 }
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 header img {
@@ -100,7 +102,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
@@ -110,8 +112,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 0px;
     }
 
     header .intro-text .name {
@@ -132,7 +134,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
+        color: #000000;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -143,14 +146,15 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 10;
+        color: #000000;
 }
 
 .navbar a:focus {
@@ -220,7 +224,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(230,69,64,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
