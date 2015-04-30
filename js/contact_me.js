@@ -13,6 +13,7 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
+            var date = $("input#date").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -25,6 +26,7 @@ $(function() {
                 data: {
                     name: name,
                     email: email,
+                    date: date,
                     message: message
                 },
                 cache: false,
